@@ -1,0 +1,22 @@
+
+
+
+
+.contacto {
+    padding-top: 10px;
+   background-color: rgb(254, 0, 0);
+}
+
+.contacto .row {
+    padding: 5px;
+    font-size: 15px;
+}
+
+.contacto .col-md-4 .fa {
+    padding: 5px;
+    font-size: 25px; 
+    color: antiquewhite;   
+ }
+
+
+ 

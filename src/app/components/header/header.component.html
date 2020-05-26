@@ -1,0 +1,69 @@
+
+
+ 
+ <div class="bar"  >
+ 
+ <section id="header">
+
+
+ <div  *ngFor="let img of imagen">
+
+<img [src] = "img" />
+
+
+ </div>
+
+
+  </section>
+
+
+
+ <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(0, 0, 0);">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active"   >
+        <a class="nav-link"  style="color: rgb(255, 255, 255);" routerLink="/">Inicio</a>
+      </li>
+      <li class="nav-item" >
+        <a class="nav-link" style="color: rgb(255, 255, 255);" routerLink="/acerca">Acerca</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="color: rgb(255, 255, 255);" routerLink="/contacto">Contacto</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" style="color: rgb(255, 255, 255);" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Servicios
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" routerLink="/clase1">Clase I</a>
+          <a class="dropdown-item" routerLink="/clase2">Clase II</a>
+          <a class="dropdown-item" routerLink="/clase3">Clase III</a>
+          <a class="dropdown-item" routerLink="/clase4">Clase IV</a>
+          <a class="dropdown-item" routerLink="/clase5">Clase V</a>
+          <a class="dropdown-item" routerLink="/clase6">Clase VI</a>
+
+
+
+
+        </div>
+      </li>
+    </ul>
+
+
+  </div>
+
+
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0"  style="background-color: rgb(254, 0, 0);" type="submit">Search</button>
+  </form>
+</nav>
+
+
+
+</div>
